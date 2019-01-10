@@ -1,0 +1,92 @@
+body {
+ background-image : url("images.jpg");
+ background-repeat:repeat x;
+ background-position:center;
+ background-size:100%;
+ 
+}
+img {
+  height: auto;
+  opacity: 0.3;
+}
+[title$="red"] {
+  border: 5px solid red;
+}
+img:hover {
+  opacity: 1.0;}
+h1 {
+  color: black;
+  text-align:center;
+  border:double;
+border-color:coral;
+margin: 25px 25px 25px 25px;
+  margin-left:20px;
+text-transform:capitalize;
+}
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+
+
+a:hover {
+  color: hotpink;
+}
+
+
+a:active {
+  color: blue;
+}
+ol{list-style-type:upper-roman}
+p {
+  color: red;
+  text-align:right;
+padding-top:50px 25px;
+border-top:4px double;
+}
+#para{
+text-align:left;
+color:blue;}
+.center {
+	text-align:center;
+    color : black;}
+	div{
+		
+		border-style:groove;
+	}
+div.ex{
+width:100%;
+padding:25px;
+box-sizing:border-box;
+
+}
+h6{
+outline:10px red dotted;
+background-color: lightgrey;
+  width: 100%;
+  border: 25px solid green;
+}
+a{
+text-decoration:none;}
+table, th, td {
+   border: 2px solid green;
+}
+th{
+background-color:lightblue;}
+li{
+display:inline;}
+strong{
+display:block;}
+div > p {
+  color: red;
+}
+p::first-letter{
+color:red;
+font-size:xx-large;}
+p.highlight:hover {
+  background-color: lightblue;
+}
+input:focus {
+background-color: lightblue;}
